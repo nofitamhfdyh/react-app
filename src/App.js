@@ -33,7 +33,6 @@ function App() {
          
       </Greet>
       
-      {/*
       <Welcome name='Nupnup' heroName='Batman'>
 
       </Welcome>
@@ -44,7 +43,7 @@ function App() {
 
       <Welcome name='Napnap' heroName='Wonder Woman'>
 
-      </Welcome> */}
+      </Welcome>
 
       {/* <Hello>
         
