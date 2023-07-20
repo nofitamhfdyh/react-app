@@ -1,13 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import Greet from './components/Greet'; 
+import {Greet} from './components/Greet'; //jika export greet secara langsung tanpa menggunaan default, maka dalam file ini harus ditambah kurung kurawa (1a)
 
 function App() {
   return (
     <div className="App">
-      <Greet> 
+      <Greet>
         //pemanggilan file Greet 
-      </Greet>
+        </Greet>
+      
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
