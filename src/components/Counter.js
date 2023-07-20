@@ -11,12 +11,24 @@ constructor(props) {
 
 
 increment(){
-        this.setState({
-                count : this.state.count + 1
-        }, 
-        () => {console.log('Callback Value', this.state.count) // output di console akan memulai dari 1
-        })
+        // this.setState({
+        //         count : this.state.count + 1
+        // }, 
+        // () => {console.log('Callback Value', this.state.count) // output di console akan memulai dari 1
+        // })
+
+        this.setState((prevState, props) => ({
+                count: prevState.count + 1 
+        }))
         console.log(this.state.count) //output di console akan memulai dari 0
+}
+
+incrementFive() {
+        this.increment()
+        this.increment()
+        this.increment()
+        this.increment()
+        this.increment()
 }
 
 render() {
@@ -25,7 +37,7 @@ render() {
                 <div>
                 Count - {this.state.count}
                 </div>
-        <button onClick={() => this.increment()}>Increment</button>
+        <button onClick={() => this.incrementFive()}>Increment</button>
         </div>
         )
   }
