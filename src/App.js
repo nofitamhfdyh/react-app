@@ -7,13 +7,20 @@ import Hello from './components/Hello';
 function App() {
   return (
     <div className="App">
-      <Greet name='Nupnup'>
-        
+      <Greet name='Nupnup' heroName='Batman'>
+        <p>
+          This is the children Prop
+        </p>
+        <p>
+          This is the children Prop
+        </p>
       </Greet>
-      <Greet name='Nopnop'>
-         
+      <Greet name='Nopnop' heroName='Superman'>
+         <button>
+            Action
+         </button>
       </Greet>
-      <Greet name='Napnap'>
+      <Greet name='Napnap' heroName='Wonder Woman'>
          
       </Greet>
       
