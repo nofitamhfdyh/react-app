@@ -5,17 +5,21 @@ import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Message from './components/Message';
 import Counter from './components/Counter';
+import FunctionClick from './components/FunctionClick';
 
 function App() {
   return (
     <div className="App">
+      <FunctionClick>
+        
+      </FunctionClick>
       {/* <Counter>
 
       </Counter> */}
       {/* <Message>
 
       </Message> */}
-
+{/* 
       <Greet name='Nupnup' heroName='Batman'>
         <p>
           This is the children Prop
@@ -43,7 +47,7 @@ function App() {
 
       <Welcome name='Napnap' heroName='Wonder Woman'>
 
-      </Welcome>
+      </Welcome> */}
 
       {/* <Hello>
         
