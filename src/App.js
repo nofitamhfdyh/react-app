@@ -4,13 +4,17 @@ import Greet from './components/Greet'; //jika export greet secara langsung tanp
 import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Message from './components/Message';
+import Counter from './components/Counter';
 
 function App() {
   return (
     <div className="App">
-      <Message>
+      <Counter>
         
-      </Message>
+      </Counter>
+      {/* <Message>
+
+      </Message> */}
 
       {/* <Greet name='Nupnup' heroName='Batman'>
         <p>
