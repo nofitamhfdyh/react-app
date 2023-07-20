@@ -24,9 +24,17 @@ function App() {
          
       </Greet>
       
-      {/* <Welcome>
+      <Welcome name='Nupnup' heroName='Batman'>
 
-      </Welcome> */}
+      </Welcome>
+
+      <Welcome name='Nopnop' heroName='Superman'>
+
+      </Welcome>
+
+      <Welcome name='Napnap' heroName='Wonder Woman'>
+
+      </Welcome>
 
       {/* <Hello>
         
