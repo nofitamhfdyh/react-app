@@ -7,17 +7,23 @@ import Hello from './components/Hello';
 function App() {
   return (
     <div className="App">
-      {/* <Greet>
-        //pemanggilan file Greet 
+      <Greet name='Nupnup'>
+        
+      </Greet>
+      <Greet name='Nopnop'>
+         
+      </Greet>
+      <Greet name='Napnap'>
+         
       </Greet>
       
-      <Welcome>
+      {/* <Welcome>
 
       </Welcome> */}
 
-      <Hello>
+      {/* <Hello>
         
-      </Hello>
+      </Hello> */}
 
       
       {/* <header className="App-header">
