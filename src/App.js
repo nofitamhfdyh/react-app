@@ -3,11 +3,16 @@ import './App.css';
 import Greet from './components/Greet'; //jika export greet secara langsung tanpa menggunaan default, maka dalam file ini harus ditambah kurung kurawa (1a)
 import Welcome from './components/Welcome';
 import Hello from './components/Hello';
+import Message from './components/Message';
 
 function App() {
   return (
     <div className="App">
-      <Greet name='Nupnup' heroName='Batman'>
+      <Message>
+        
+      </Message>
+
+      {/* <Greet name='Nupnup' heroName='Batman'>
         <p>
           This is the children Prop
         </p>
@@ -34,7 +39,7 @@ function App() {
 
       <Welcome name='Napnap' heroName='Wonder Woman'>
 
-      </Welcome>
+      </Welcome> */}
 
       {/* <Hello>
         
