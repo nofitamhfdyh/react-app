@@ -11,11 +11,14 @@ constructor(props){
 }
 
   render() {
-        return(
-                this.state.isLoggedIn ?
-                <div> Welcome Nofitaaaaaa</div> : 
-                <div> Welcome Guestttt</div>
-        )
+
+        return this.state.isLoggedIn && <div> Welcome NUUUUUPPPPP</div> //jika true maka akan mengeksekui setelah &&, tapi jila false, maka tidak akan mengeksekusi apapun
+
+        // return(
+        //         this.state.isLoggedIn ?
+        //         <div> Welcome Nofitaaaaaa</div> : 
+        //         <div> Welcome Guestttt</div>
+        // )
 
         // let message //menyimpan elemen ke dalam message (element variable approach)
         // if (this.state.isLoggedIn){
