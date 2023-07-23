@@ -30,10 +30,15 @@ function NameList(){
                         name: 'Rizky',
                         age:60,
                         skill:'React'
+                },{
+                        id:5,
+                        name: 'Alkarim',
+                        age:45,
+                        skill:'Java'
                 }
         ]
 
-        const personList = persons.map(persons => <Person persons={persons}> </Person>)
+        const personList = persons.map(persons => <Person key={persons.id} persons={persons}> </Person>) //key -> yang penting unik, bisa pake id dan nama. jika nama, harus dipastikan kalau benar" tidak ada yang sama
         return <div>{personList}</div>
 }
 
