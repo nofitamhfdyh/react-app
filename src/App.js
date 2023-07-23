@@ -12,13 +12,17 @@ import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import StyleSheets from './components/StyleSheets';
+import InLine from './components/InLine';
 
 function App() {
   return (
     <div className="App">
-      <StyleSheets primary={true}> {/* pemanggilan (13) */}
+      <InLine>
+        
+      </InLine>
+      {/* <StyleSheets primary={true}> {/* pemanggilan (13)
 
-      </StyleSheets>
+      </StyleSheets> */}
 
       {/* <NameList>
 
