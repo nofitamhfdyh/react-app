@@ -13,12 +13,17 @@ import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import StyleSheets from './components/StyleSheets';
 import InLine from './components/InLine';
+import './appStyles.css';
+import style from './appStyles.module.css';
 
 function App() {
   return (
     <div className="App">
+      <h1 className='error'> Error </h1>
+      <h1 className={style.success}> Success </h1>
+
       <InLine>
-        
+
       </InLine>
       {/* <StyleSheets primary={true}> {/* pemanggilan (13)
 
