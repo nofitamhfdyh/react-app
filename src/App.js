@@ -16,7 +16,7 @@ import StyleSheets from './components/StyleSheets';
 function App() {
   return (
     <div className="App">
-      <StyleSheets>
+      <StyleSheets primary={true}> {/* pemanggilan (13) */}
 
       </StyleSheets>
 
