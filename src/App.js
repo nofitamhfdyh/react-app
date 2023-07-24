@@ -15,16 +15,21 @@ import StyleSheets from './components/StyleSheets';
 import InLine from './components/InLine';
 import './appStyles.css';
 import style from './appStyles.module.css';
+import Form from './components/Form';
 
 function App() {
   return (
     <div className="App">
-      <h1 className='error'> Error </h1>
-      <h1 className={style.success}> Success </h1>
 
-      <InLine>
+      <Form>
+        
+      </Form>
+      {/* <h1 className='error'> Error </h1>
+      <h1 className={style.success}> Success </h1> */}
 
-      </InLine>
+      {/* <InLine>
+
+      </InLine> */}
       {/* <StyleSheets primary={true}> {/* pemanggilan (13)
 
       </StyleSheets> */}
