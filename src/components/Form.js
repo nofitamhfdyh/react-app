@@ -28,9 +28,14 @@ class Form extends Component {
                         topic: event.target.value
                 })
         }
+
+        handleSubmit = event => {
+                alert(`${this.state.username} ${this.state.comments} ${this.state.topic}`)
+                event.preventDefault() // digunakan supaya halaman tidak otomatis ke refresh ketika sudah di klik OK
+        }
   render() {
     return (
-      <form>
+      <form onSubmit={this.handleSubmit}>
         <div>
                 <label> Username </label>
                 <input type='text' value={this.state.username} onChange={this.handleUsernameChange}></input>
@@ -47,6 +52,7 @@ class Form extends Component {
                         <option value="nodejs"> NodeJS</option>
                 </select>
         </div>
+        <button type='submit'>Submit</button>
       </form>
     )
   }
